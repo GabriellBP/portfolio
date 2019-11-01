@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   barbosa.ga
+url:                   https://barbosa.ga
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -19,7 +19,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Gabriel
+title:                 Gabriel Barbosa Pereira
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -30,8 +30,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+  "The more I study, the more insatiable do I feel my genius for it to be."`Ada Lovelace`
 
 # A list of keywords for your blog
 keywords:              []
@@ -43,8 +42,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Gabriel Barbosa Pereira
+  email:               gabryelbp@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -72,7 +71,7 @@ copyright:             © 2019. All rights reserved. Open `_config.yml` to edit 
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
+paginate:              6
 paginate_path:         /page-:num/
 
 
@@ -80,7 +79,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/background-sidebar.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -118,6 +117,10 @@ defaults:
     values:
       seo:
         type:          WebPage
+#  - scope:
+#      type:            posts
+#    values:
+#      comments:        true
 
 
 # 3rd Party Integrations
@@ -129,7 +132,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+# disqus:                barboa-ga
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
@@ -256,6 +259,7 @@ include:
 # ========================================================================================
 
 plugins:
+  - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
@@ -267,11 +271,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
 
+
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@v8.5.1
+remote_theme: gabriellbp/hydejack@v8.5.1
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
