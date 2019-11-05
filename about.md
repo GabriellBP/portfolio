@@ -16,17 +16,21 @@ description: >
 hide_description: true
 
 # TODO
-image: /assets/img/blog/hydejack-8.png
+image: /assets/img/about-8.png
 ---
 
 The "Best Jekyll Theme by a Mile".
-{:.lead}
 
-![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/hydejack-8.png 1920w, /assets/img/blog/hydejack-8@0,5x.png 960w, /assets/img/blog/hydejack-8@0,25x.png 480w" data-width="1920" data-height="1080"}
-Hydejack's cover page on a variety of screens.
+
+**Gabriel** hails from Maceió-AL. He is studying computer science at the Federal University of Alagoas - Campus A.C. Simões. 
+Currently he is working on [edge] as a junior developer is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
+
+{:.lead}
+![Screenshot](assets/img/about/eniac1-8.png){:.lead srcset="/assets/img/about/eniac1-8.png 1920w, /assets/img/about/eniac1-8@0,5x.png 960w, /assets/img/about/eniac1-8@0,25x.png 480w" data-width="1920" data-height="1406"}
+ENIAC 2019 presentation poster: Base Station Placement across a Simulated City using a Biased Random-key Genetic Algorithm 
 {:.figure}
 
-**Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
+
 
 > Your presence on the web — A [blog], a [portfolio], and a [resume].
 {:.lead}
@@ -162,6 +166,8 @@ This table below shows what's included in each version:
       You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the [PRO] license.
 
 [^2]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
+
+[edge]: http://edgebr.org/
 
 [blog]: https://hydejack.com/blog/
 [portfolio]: https://hydejack.com/projects/
