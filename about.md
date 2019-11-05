@@ -19,11 +19,9 @@ hide_description: true
 image: /assets/img/about-8.png
 ---
 
-The "Best Jekyll Theme by a Mile".
-
-
-**Gabriel** hails from Maceió-AL. He is studying computer science at the Federal University of Alagoas - Campus A.C. Simões. 
-Currently he is working on [edge] as a junior developer is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
+**Gabriel** hails from Maceió-AL. He's a computer technician by the [Federal Institute of Alagoas] and nowadays he's studying computer science at the [Federal University of Alagoas] - Campus A.C. Simões. 
+Currently, he's working on [Edge] as a junior developer and on [IC] - Institute of Computation, as a professor assistant of Internet and Web (a Computer Science discipline). 
+His main interest areas are *development* and *data science*.
 
 {:.lead}
 ![Screenshot](assets/img/about/eniac1-8.png){:.lead srcset="/assets/img/about/eniac1-8.png 1920w, /assets/img/about/eniac1-8@0,5x.png 960w, /assets/img/about/eniac1-8@0,25x.png 480w" data-width="1920" data-height="1406"}
@@ -168,6 +166,9 @@ This table below shows what's included in each version:
 [^2]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
 
 [edge]: http://edgebr.org/
+[ic]: http://www.ufal.edu.br/unidadeacademica/ic
+[Federal Institute of Alagoas]: https://www2.ifal.edu.br/
+[Federal University of Alagoas]: https://ufal.br/
 
 [blog]: https://hydejack.com/blog/
 [portfolio]: https://hydejack.com/projects/
