@@ -9,6 +9,7 @@ permalink: /blog/
 <style>
     .container {
         display: flex;
+        flex-direction: row;
     }
 
     .card {
