@@ -3,12 +3,15 @@
 layout: list
 
 # The title of the tag's page.
-title: Blog
+title: Data Science
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: blog
+slug: data-science
+
+#Set to to true if you want the category or tag to appear in the sidebar.
+menu: false
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Bellow, there's the categories of my blog, please feel free to navigate between them.
+  All my posts about machine learning, data mining and all subjects of Data Science are here, enjoy it. 
 ---
