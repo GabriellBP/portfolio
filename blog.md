@@ -1,5 +1,6 @@
 ---
 title: Blog
+layout: page
 description: >
  Here you should be able to find the categories of my blog.
 hide_description: false
@@ -30,44 +31,45 @@ permalink: /blog/
       padding: 2px 16px;
     }
     
-    h4 {
+    .card-title {
       margin: 0;
       font-weight: bold;
     }
     
-    p {
+    .card-subtitle {
       text-align: justify;
     }
     
-    img {
+    .card-img {
       border-radius: 5px 5px 0 0;
+      width:100%
     }
 </style>
 
 <script type="text/javascript">
     function goTo(where) {
         if (where === 'data-science') {
-            window.location.href = "/blog/data-science/";
+            window.location.href = "data-science/";
         } else {
-            window.location.href = "/blog/news/";
+            window.location.href = "news/";
         }
     }
 </script>
 
 <div class="container">
     <div class="card" onclick="goTo('data-science');">
-       <img src="../assets/img/data-science.png" alt="Data Science" style="width:100%">
+       <img src="/assets/img/data-science.png" alt="Data Science" class="card-img">
        <div class="texts">
-         <h4>Data Science</h4>
-         <p>Data science is the field of study that combines domain expertise, programming skills, and knowledge of 
+         <h4 class="card-title">Data Science</h4>
+         <p class="card-subtitle">Data science is the field of study that combines domain expertise, programming skills, and knowledge of 
          mathematics and statistics to extract meaningful insights from data.</p>
        </div>
     </div>
     <div class="card" onclick="goTo('news');">
-       <img src="../assets/img/news.jpg" alt="Data Science" style="width:100%">
+       <img src="/assets/img/news.jpg" alt="News" class="card-img">
        <div class="texts">
-         <h4>News</h4>
-         <p>Here are the news and curiosities of the Computer Science world.</p>
+         <h4 class="card-title">News</h4>
+         <p class="card-subtitle">Here are the news and curiosities of the Computer Science world.</p>
        </div>
     </div>
 </div>
