@@ -123,3 +123,5 @@ measures <- function(test, pred){
 }
 ~~~
 
+> To see a real simple example of comparing models using measures, use the [link](https://colab.research.google.com/drive/1CwX4LoDUnROl_qikBY2SnKIUkO0FE0ux){:target="_blank"}
+
