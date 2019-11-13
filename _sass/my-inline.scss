@@ -1,1 +1,34 @@
 // You can add CSS rules here that will be inlined into each document.
+.grid {
+  display: grid;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid-template-columns-2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.item {
+  padding: 5px;
+  text-align: justify;
+  flex-direction: column;
+  --code-font-family: Menlo,Monaco,Consolas,monospace;
+  --font-weight: 400;
+  --font-weight-bold: 700;
+  --font-weight-heading: 400;
+  --text-muted: #888;
+  --gray-bg: rgba(0,0,0,0.025);
+  --gray-text: #666;
+  --menu-text: #bbb;
+  --body-color: #333;
+  --body-bg: #fff;
+  --border-color: #ebebeb;
+  h2 {
+    margin: 2rem 0 1rem !important;
+  }
+
+  .hr {
+    margin-bottom: 1rem !important;
+  }
+}
