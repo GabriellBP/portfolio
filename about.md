@@ -17,6 +17,22 @@ hide_description: true
 # TODO
 image: /assets/img/about-8.png
 ---
+<style>
+    .date-ab {
+        color: var(--text-muted);
+        font-size: 0.8em;
+    }
+    
+    .title-ab {
+        font-weight: var(--font-weight-bold);
+        font-size: 1.1em;
+    }
+    
+    .content-ab {
+        background: var(--gray-bg);
+        font-size: 0.9em;
+    }
+</style>
 **Gabriel** hails from Maceió-AL. He's a computer technician by the [Federal Institute of Alagoas] and nowadays he's studying computer science at the [Federal University of Alagoas] - Campus A.C. Simões. 
 Currently, he's working on [Edge] as a junior developer and on [IC] - Institute of Computation, as a professor assistant of Internet and Web (a Computer Science discipline). 
 His main interest areas are *development* and *data science*.
@@ -28,15 +44,54 @@ ENIAC 2019 presentation poster: Base Station Placement across a Simulated City u
 
 
 
-> Descrever aqui o que o leitor vai encontrar abaixo, dizer que vai falar um pouco sobre suas experiencias e gostos, esse tipo de coisa.
+> Below is a little about my experiences and projects, my interests and skills.
 {:.lead}
 
 <section class="grid grid-template-columns-2">
 	<div class="item">
 	    {{"## Experience"| markdownify }}
 	    <div class="hr pb0"></div>
-	    {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-	    {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
+	    <span class="date-ab">04/2013 - 11/2013</span>
+	    <div class="title-ab">Computational resources for teaching mathematics</div>
+	    <div class="content-ab">
+            {{"An extension project at the [Federal Institute of Alagoas](https://www2.ifal.edu.br/), with the objective of 
+            teaching educational computational resources to public school mathematics teachers. These resources could be 
+            applied to improve classroom performance and engage students."| markdownify }}
+	    </div>
+        <span class="date-ab">08/2017 - 07/2018</span>
+        <div class="title-ab">Intelligent assistants in online education: a focus on discussion forum</div>
+        <div class="content-ab">
+            {{"A research project at the [Federal University of Alagoas](https://ufal.br/), with the objective of designing 
+            and developing intelligent assistants, focusing on the discussion forum resource, building tools to help 
+            students and teachers."| markdownify }}
+        </div>
+        <span class="date-ab">02/2018 - 06/2018</span>
+        <div class="title-ab">Database professor assistant </div>
+        <div class="content-ab">
+            {{"Helping the professor of Database (a Computer Science discipline at the [Federal University of 
+            Alagoas](https://ufal.br/)), in your classrooms by teaching and helping the students."| markdownify }}
+        </div>
+        <span class="date-ab">08/2018 - 07/2019</span>
+        <div class="title-ab">A multidimensional approach for personalization in educational resource recommendation 
+        systems </div>
+        <div class="content-ab">
+            {{"A research project at the [Federal University of Alagoas](https://ufal.br/), with the objective of studying 
+            and promoting improvements in the quality of personalized recommendation of digital educational resources or 
+            people"| markdownify }}
+        </div>
+        <span class="date-ab">07/2019 - present</span>
+        <div class="title-ab">Internet and Web professor assistant </div>
+        <div class="content-ab">
+            {{"Helping the professor of Internet and Web (a Computer Science discipline at the [Federal University of 
+            Alagoas](https://ufal.br/)), in your classrooms by teaching and helping the students."| markdownify }}
+        </div>
+        <span class="date-ab">07/2019 - present</span>
+        <div class="title-ab">Junior developer at [EDGE](http://edgebr.org/)</div>
+        <div class="content-ab">
+            {{"[EDGE](http://edgebr.org/) is an innovation center that is part of the Institute of Computing of the Federal
+             University of Alagoas (UFAL), in Maceió. Lab leaders have a history of partnering with companies and developing
+              research and innovation projects.."| markdownify }}
+        </div>
 	</div>
 	<div class="item">
 	    {{"## Languages"| markdownify }}
