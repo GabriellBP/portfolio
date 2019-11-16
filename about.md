@@ -18,6 +18,10 @@ hide_description: true
 image: /assets/img/about-8.png
 ---
 <style>
+    .container-ab {
+        margin: 15px 0;
+    }
+
     .date-ab {
         color: var(--text-muted);
         font-size: 0.8em;
@@ -32,6 +36,33 @@ image: /assets/img/about-8.png
         background: var(--gray-bg);
         font-size: 0.9em;
     }
+    
+    .languages {
+        display: flow-root;
+        padding: 0 0 0 25px;
+        width: 100%;
+    }
+    
+    .img-lg {
+        width: 75px;
+        height: 15px;
+        float: right;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .text-lg {
+        display: inline-block;
+        float: left;
+        margin: 0;
+    }
+    
+    .english {
+        float: right;
+        font-size: 0.6em;
+        color: var(--text-muted);
+    }
+    
 </style>
 **Gabriel** hails from Maceió-AL. He's a computer technician by the [Federal Institute of Alagoas] and nowadays he's studying computer science at the [Federal University of Alagoas] - Campus A.C. Simões. 
 Currently, he's working on [Edge] as a junior developer and on [IC] - Institute of Computation, as a professor assistant of Internet and Web (a Computer Science discipline). 
@@ -86,7 +117,7 @@ ENIAC 2019 presentation poster: Base Station Placement across a Simulated City u
             Alagoas](https://ufal.br/)), in your classrooms by teaching and helping the students."| markdownify }}
         </div>
         <span class="date-ab">07/2019 - present</span>
-        <div class="title-ab">Junior developer at [EDGE](http://edgebr.org/)</div>
+        <div class="title-ab">Junior developer at EDGE</div>
         <div class="content-ab">
             {{"[EDGE](http://edgebr.org/) is an innovation center that is part of the Institute of Computing of the Federal
              University of Alagoas (UFAL), in Maceió. Lab leaders have a history of partnering with companies and developing
@@ -96,62 +127,116 @@ ENIAC 2019 presentation poster: Base Station Placement across a Simulated City u
 	<div class="item">
 	    {{"## Languages"| markdownify }}
         <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
+        <div class="title-ab">Portuguese</div>
+        <div class="languages">
+            <p class="text-lg">Reading</p>
+            <img alt="native" title="native" class="img-lg" src="/assets/img/5-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Writing</p>
+            <img alt="native" title="native" class="img-lg" src="/assets/img/5-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Listening</p>
+            <img alt="native" title="native" class="img-lg" src="/assets/img/5-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Speaking</p>
+            <img alt="native" title="native" class="img-lg" src="/assets/img/5-stars.png">
+        </div>
+        <div class="title-ab">English <span class="english">TOEFL - QCE: B1</span></div>
+        <div class="languages">
+            <p class="text-lg">Reading</p>
+            <img alt="intermediary-advanced" title="intermediary-advanced" class="img-lg" src="/assets/img/4-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Writing</p>
+            <img alt="intermediary" title="intermediary" class="img-lg" src="/assets/img/3-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Listening</p>
+            <img alt="intermediary" title="intermediary" class="img-lg" src="/assets/img/3-stars.png">
+        </div>
+        <div class="languages">
+            <p class="text-lg">Speaking</p>
+            <img alt="intermediary" title="intermediary" class="img-lg" src="/assets/img/3-stars.png">
+        </div>
         {{"## Skills"| markdownify }}
         <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
+        <div class="title-ab">Languages</div>
+        {{"`C` `C#` `JAVASCRIPT` `JAVA` `PYTHON` `DART` `R`"| markdownify }}
+        <div class="title-ab">Web development</div>
+        {{"`HTML` `CSS` `TYPESCRIPT` `ASP.NET MVC` `DJANGO` `DJANGO REST FRAMEWORK` `FLASK` `ANGULAR` `SQL`"| markdownify }}
+        <div class="title-ab">Mobile development</div>
+        {{"`IONIC` `FLUTTER`"| markdownify }}
+        <div class="title-ab">Data science</div>
+        {{"`PANDAS` `NUMPY` `SCIKIT-LEARN` `KERAS` `TENSORFLOW`"| markdownify }}
+        <div class="title-ab">Others</div>
+        {{"`GIT` `VERSION CONTROL` `AGILE METHODOLOGIES` `STATISTICS`"| markdownify }}
 	</div>
 	<div class="item">
-	    {{"## Extra"| markdownify }}
+	    {{"## Education"| markdownify }}
         <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
+        <div class="container-ab">
+            <div class="title-ab">Certificate (Technical Course), Computing, Federal Institute of Alagoas</div>
+            <span class="date-ab">2011 - 2014. GPA: 3.54 (Brazilian scale: 8.85)</span>
+        </div>
+        <div class="container-ab">        
+            <div class="title-ab">B.S., Computer Science, Federal University of Alagoas</div>
+            <span class="date-ab">2016 - present. GPA: 3.47 (Brazilian scale: 8.68)</span>
+        </div>
 	</div>
 	<div class="item">
-        {{"## Interests"| markdownify }}
-        <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-	</div>
-	<div class="item">
-        {{"## Education"| markdownify }}
-        <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-    </div>
-    <div class="item">
         {{"## Publications"| markdownify }}
         <div class="hr pb0"></div>
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
-        {{"There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade."| markdownify }}
+        <span class="date-ab">2019</span>
+        <div class="title-ab">ENIAC<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></div>
+        <div>{{"Base Station Placement across a Simulated City using a Biased Random-key Genetic Algorithm"| markdownify}}</div>
+	</div>
+	<!--
+	<div class="item">
+        {{"## Extra"| markdownify }}
+        <div class="hr pb0"></div>
+        {{"Colocar Aplicativo feito."| markdownify }}
+        {{"Colocar Colocar evento ICTechWeek."| markdownify }}
+        {{"Colocar Cursos Udemy: Ionic, Flutter, DataScience."| markdownify }}
     </div>
+    <div class="item">
+        {{"## Interests"| markdownify }}
+        <div class="hr pb0"></div>
+        {{"Colocar as áreas da computação: data science, development, segurança, redes."| markdownify }}
+        {{"Colocar as áreas fora da computação: música, sei lá..."| markdownify }}
+    </div>
+    -->
 </section>
 
-<!--how to make comentaries-->
+## Resume
+Get my resume on [Lattes](http://lattes.cnpq.br/1113244252323139){:target="_blank"} or [PDF](assets/Resume.pdf){:target="_blank"}.
 
-
-## A Printable Resume
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
-
-![Resume PDF](assets/img/blog/resume.png){: data-width="1867" data-height="1389"}
-Front and center page of a print resume generated by Hydejack.
+![Resume PDF](/assets/img/resume.png){: data-width="1867" data-height="1389"}
+Front page of a print resume generated by me.
 {:.figure}
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1" tabindex="0">
+      <p><a href="http://www.bracis2019.ufba.br/eniac.html" target="_blank"> ENIAC </a>: Encontro Nacional de Inteligência Artificial e Computacional (National Meeting on Artificial and Computational Intelligence).
+      It's a brazilian conference about artificial and computational intelligence that occurred in Salvador-BA<a href="#fnref:1" class="reversefootnote">↩︎</a></p>
+    </li>
+  </ol>
+</div>
 
-* 99/100 [Google PageSpeed Score][gpss][^2]
+<!--
+* 99/100 [Google PageSpeed Score][gpss][^1]
 
-[^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
-      You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the [PRO] license.
-
-[^2]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
+[^1]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
+-->
 
 [edge]: http://edgebr.org/
 [ic]: http://www.ufal.edu.br/unidadeacademica/ic
 [Federal Institute of Alagoas]: https://www2.ifal.edu.br/
 [Federal University of Alagoas]: https://ufal.br/
-
+<!---->
 [blog]: https://hydejack.com/blog/
 [portfolio]: https://hydejack.com/projects/
 [resume]: https://hydejack.com/resume/
