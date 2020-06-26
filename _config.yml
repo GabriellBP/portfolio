@@ -115,10 +115,10 @@ defaults:
     values:
       seo:
         type:          WebPage
-#  - scope:
-#      type:            posts
-#    values:
-#      comments:        true
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
 
 # 3rd Party Integrations
@@ -130,7 +130,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                barboa-ga
+disqus:                barbosa-ga
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
