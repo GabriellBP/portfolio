@@ -65,6 +65,7 @@ permalink: /blog/
          mathematics and statistics to extract meaningful insights from data.</p>
        </div>
     </div>
+    <!--
     <div class="card" onclick="goTo('news');">
        <img src="/assets/img/news.jpg" alt="News" class="card-img">
        <div class="texts">
@@ -72,4 +73,5 @@ permalink: /blog/
          <p class="card-subtitle">Here are the news and curiosities of the Computer Science world.</p>
        </div>
     </div>
+    -->
 </div>
